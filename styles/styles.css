@@ -1,9 +1,12 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/carousel.css");
-@import url("styles/topics.css");
-@import url("styles/contact.css");
-@import url("styles/footer.css");
+@import url("header.css");
+@import url("banner.css");
+@import url("carousel.css");
+@import url("topics.css");
+@import url("contact.css");
+@import url("footer.css");
+@import url("form.css");
+@import url("register.css");
+
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -16,6 +19,7 @@
     --preto: #000000;
     --cinza: #474646;
     --cinza-claro: #858585;
+    --vermelho: #D94937;
 }
 
 body {
