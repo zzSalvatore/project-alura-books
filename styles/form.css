@@ -63,7 +63,7 @@
 
 .erro__image {
     width: 16px;
-    height: 16px;
+    height: 14px;
     margin: 0 .5em;
     background-image: url('../img/warning.png');
     background-repeat: no-repeat;
@@ -74,4 +74,8 @@
     font-size: 12px;
     line-height: 18px;
     color: var(--vermelho);
+    width: 100px;
+    margin: 10px;
+    flex-direction: row-reverse;
 }
+
