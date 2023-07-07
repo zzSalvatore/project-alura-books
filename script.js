@@ -30,3 +30,15 @@ async function buscaEndereco(cep){
 let cep = document.getElementById("cep");
 cep.addEventListener('focusout', () => buscaEndereco(cep.value));
 
+
+//Adicionando redirecionamento para Home
+let redirectHomeByImg = document.getElementById('img__alura');
+let redirectHomeByTitle = document.getElementById('title__alura');
+
+redirectHomeByImg.addEventListener('click', (e) => {
+    window.location.href = 'https://zzsalvatore.github.io/project-alura-books/';
+})
+
+redirectHomeByTitle.addEventListener('click', (e) => {
+    window.location.href = 'https://zzsalvatore.github.io/project-alura-books/';
+})

@@ -39,8 +39,8 @@
                     <a href="#" class="list-menu__link">Design & UX</a>
                 </li>
             </ul>
-            <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__image">
-            <h1 class="container__title"><b class="container__title--negrito">Alura</b>Books</h1>
+            <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__image" id="img__alura">
+            <h1 class="container__title" id="title__alura"><b class="container__title--negrito">Alura</b>Books</h1>
         </div>
 
         <ul class="options">
@@ -68,7 +68,7 @@
             </ul>
 
             <li class="options__item"><a href="#" class="options__link">Favoritos</a></li>
-            <li class="options__item"><a href="#" class="options__link">Minha estante</a></li>
+            <li class="options__item"><a href="https://zzsalvatore.github.io/project-alura-books/register" class="options__link">Cadastrar-se</a></li>
         </ul>
 
         <div class="container">
@@ -329,6 +329,18 @@
                 type: 'bullets',
             },
         });
+
+        let redirectHomeByImg = document.getElementById('img__alura');
+        let redirectHomeByTitle = document.getElementById('title__alura');
+
+        redirectHomeByImg.addEventListener('click', (e) => {
+            window.location.href = 'https://zzsalvatore.github.io/project-alura-books/';
+        })
+
+        redirectHomeByTitle.addEventListener('click', (e) => {
+            window.location.href = 'https://zzsalvatore.github.io/project-alura-books/';
+        })
+
     </script>
 </body>
 

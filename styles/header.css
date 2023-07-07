@@ -23,6 +23,10 @@
     position: relative;
 }
 
+#title__alura{
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -30,6 +34,7 @@
 
 .container__image {
     padding: 1em;
+    cursor: pointer;
 }
 
 .list-menu {
@@ -74,6 +79,9 @@
     display: none;
 }
 
+.options__item{
+    cursor: pointer;
+}
 .container__text {
     display: none;
 }
