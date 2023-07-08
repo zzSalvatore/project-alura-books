@@ -73,6 +73,7 @@
 
 .container__title {
     display: none;
+    cursor: pointer;
 }
 
 .options {
